@@ -1,0 +1,80 @@
+/* -------------------------------------------INDEX.HTML---------------------------------------------------------- */
+.header {
+    background-color: #91BD83;
+    /* color: #000; */
+    margin-bottom: 2rem;
+    text-align: center;
+    height: 250px;
+}
+
+.breadcrumb {
+    background-color: #91BD83;
+}
+
+#projHeader {
+    height: 125px;
+}
+.logos {
+    width: 400px;
+    max-width: 100%;
+}
+
+h1 {
+    position: relative;
+    top: -30px
+}
+
+body {
+    background-color: #677D60;
+}
+
+.face {
+    border: 3px solid #000;
+    up: -200px;
+}
+
+.container {
+    position: relative;
+    right: -100px;
+}
+
+h2 {
+    position: relative;
+    text-align: center;
+    bottom: -40px;
+    margin-bottom: 20px;
+}
+.footer {
+    margin: 10px auto 10px auto;
+    width: 150px;
+}
+
+.fa-github {
+    color: #000;
+}
+
+.fa-envelope {
+    color: white;
+}
+
+#projects {
+font-size: 25pt;
+position: relative;
+right: -90px;
+}
+
+#resume {
+font-size: 25pt;
+position: relative;
+right: -260px;
+}
+
+#contact {
+font-size: 25pt;
+position: relative;
+right: -440px;
+}
+
+/* -------------------------------------------PROJECTS.HTML---------------------------------------------------------- */
+
+
