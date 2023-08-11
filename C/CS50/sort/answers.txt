@@ -1,0 +1,25 @@
+sort1 uses: Bubble sort
+
+How do you know?: Because since it has a worst case of O(n^2) and best case of omega(n), and the worst case is when it is reversed and best when it is sorted, which corresponds with the data gathered.
+
+sort2 uses: Merge sort
+
+How do you know?: Because it has a theta(n log n), which means all cases will have a similar time to execute, which corresponds with the data gathered.
+
+sort3 uses: Selection sort
+
+How do you know?: Because it has a theta(n^2), meaning all the cases will have a similar time, which corresponds with the data gathered.
+
+DATA:
+
+sort1 random50,000 = 7.555s
+sort2 random50,000 = 0.628s --> Merge
+sort3 random50,000 = 3.487s
+
+sort1 sorted50,000 = 0.484s --> Bubble
+sort2 sorted50,000 = 0.475s
+sort3 sorted50,000 = 3.512s --> Selection
+
+sort1 reversed50,000 = 5.833s
+sort2 reversed50,000 = 0.730s
+sort3 reversed50,000 = 3.555s
