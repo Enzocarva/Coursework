@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Talking_Picture_List Project 2</string>
+    <string name="dismissButton">DISMISS</string>
+    <string name="editTextHint">Describe it!</string>
+    <string name="recordButton">RECORD</string>
+    <string name="stopButton">STOP</string>
+    <string name="saveButton">SAVE</string>
+
+    <string name="voiceRecordingFileName">voice.mp4</string>
+    <string name="availableToSpeak">You can talk now</string>
+    <string name="noDescription">No Description Yet!</string>
+</resources>

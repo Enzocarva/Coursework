@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Phlogging Project 3</string>
+
+    <string name="phloggButton">Phlogg!</string>
+    <string name="saveButton">SAVE</string>
+    <string name="deleteButton">DELETE</string>
+    <string name="cameraButton">CAMERA</string>
+
+    <string name="titleHint">No title</string>
+    <string name="descriptinHint">No description</string>
+
+    <string name="cameraPhotoName">Photo.jpeg</string>
+</resources>

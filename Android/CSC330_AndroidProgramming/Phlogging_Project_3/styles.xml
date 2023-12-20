@@ -1,0 +1,78 @@
+<resources>
+<!-- ============================================================ Main UI ================================================================================== -->
+    <style name="mainList">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/buttonTextSize</item>
+    </style>
+
+    <style name="button.phlogg">
+        <item name="android:text">@string/phloggButton</item>
+    </style>
+
+    <style name="thumbnail">
+        <item name="android:layout_width">@dimen/thumbnailSize</item>
+        <item name="android:layout_height">@dimen/thumbnailSize</item>
+    </style>
+
+    <style name="title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/titleTextSize</item>
+    </style>
+
+    <style name="title.list">
+        <item name="android:hint">@string/titleHint</item>
+    </style>
+
+    <style name="title.date">
+        <item name="android:textSize">@dimen/dateTextSize</item>
+    </style>
+
+<!-- ============================================================ Display UI ================================================================================-->
+    <style name="title.display">
+        <item name="android:layout_margin">@dimen/titleMargin</item>
+        <item name="android:hint">@string/titleHint</item>
+    </style>
+
+    <style name="title.display.description">
+        <item name="android:hint">@string/descriptinHint</item>
+    </style>
+
+    <style name="title.date.display">
+        <item name="android:layout_margin">@dimen/titleMargin</item>
+    </style>
+
+    <style name="image">
+        <item name="android:layout_width">@dimen/imageSize</item>
+        <item name="android:layout_height">@dimen/imageSize</item>
+    </style>
+
+    <style name="button.display">
+        <item name="android:layout_width">185dp</item>
+    </style>
+
+    <style name="button.camera">
+        <item name="android:text">@string/cameraButton</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">@dimen/titleMargin</item>
+        <item name="android:textSize">@dimen/dateTextSize</item>
+    </style>
+
+    <style name="button.display.save">
+        <item name="android:text">@string/saveButton</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+    <style name="button.display.delete">
+        <item name="android:text">@string/deleteButton</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+
+</resources>

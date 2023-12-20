@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+    <ImageView
+        android:id="@+id/editImage"
+        style="@style/displayImage.editActivity">
+    </ImageView>
+
+    <EditText
+        android:id="@+id/editTextDescribe"
+        style="@style/editText">
+    </EditText>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/recordButton"
+            style="@style/button.recorder.record"
+            android:onClick="clickHandler">
+        </Button>
+        <Button
+            android:id="@+id/stopButton"
+            style="@style/button.recorder.stop"
+            android:onClick="clickHandler">
+        </Button>
+        <Button
+            android:id="@+id/saveButton"
+            style="@style/button.recorder.save"
+            android:onClick="clickHandler">
+        </Button>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/reset_button"
+        android:title="@string/reset_button">
+    </item>
+    <item
+        android:id="@+id/button_1s"
+        android:title="@string/button_1s">
+    </item>
+    <item
+        android:id="@+id/button_2s"
+        android:title="@string/button_2s">
+    </item>
+    <item
+        android:id="@+id/button_5s"
+        android:title="@string/button_5s">
+    </item>
+    <item
+        android:id="@+id/button_10s"
+        android:title="@string/button_10s">
+    </item>
+</menu>

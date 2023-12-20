@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/margin">
+
+    <EditText
+        android:id="@+id/displayTitle"
+        style="@style/title.display">
+    </EditText>
+    <EditText
+        android:id="@+id/displayDescription"
+        style="@style/title.display.description">
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/displayImage"
+            style="@style/image">
+        </ImageView>
+        <Button
+            android:id="@+id/cameraButton"
+            style="@style/button.camera"
+            android:onClick="onClick">
+        </Button>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/displayDateAndTime"
+        style="@style/title.date.display">
+    </TextView>
+    <TextView
+        android:id="@+id/displayLocation"
+        style="@style/title.date.display">
+    </TextView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/saveButton"
+            style="@style/button.display.save"
+            android:onClick="onClick">
+        </Button>
+        <Button
+            android:id="@+id/deleteButton"
+            style="@style/button.display.delete"
+            android:onClick="onClick">
+        </Button>
+    </RelativeLayout>
+
+</LinearLayout>

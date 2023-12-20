@@ -1,0 +1,29 @@
+<resources>
+    <dimen name="button_size">70dp</dimen>
+    <dimen name="button_margin">10dp</dimen>
+
+    <dimen name="button_play_height">120dp</dimen>
+    <dimen name="button_play_width">250dp</dimen>
+    <dimen name="button_play_text_size">50sp</dimen>
+    <dimen name="button_play_margin_top">10dp</dimen>
+
+    <dimen name="view_size">0dp</dimen>
+    <dimen name="view_weight">1</dimen>
+
+    <dimen name="text_size">55sp</dimen>
+    <dimen name="text_margin">15dp</dimen>e
+    <dimen name="text_size_game_screen">35sp</dimen>
+    <dimen name="text_paddingLeft">25dp</dimen>
+
+    <dimen name="ratingBar_margin">10dp</dimen>
+    <integer name="rating_bar_num_stars">5</integer>
+    <dimen name="ratingBar_scale">1.3</dimen>
+
+    <dimen name="progressBar_height">25dp</dimen>
+    <dimen name="progressBar_width">380dp</dimen>
+    <integer name="progressBar_click_time">10</integer>
+    <integer name="progressBar_time_1s">700</integer>
+    <integer name="progressBar_time_2s">1250</integer>
+    <integer name="progressBar_time_5s">3000</integer>
+    <integer name="progressBar_time_10s">6000</integer>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <dimen name="margin">20dp</dimen>
+    <dimen name="titleMargin">5dp</dimen>
+
+    <dimen name="thumbnailSize">60dp</dimen>
+    <dimen name="imageSize">230dp</dimen>
+
+    <dimen name="buttonTextSize">25sp</dimen>
+    <dimen name="titleTextSize">28sp</dimen>
+    <dimen name="dateTextSize">17sp</dimen>
+</resources>

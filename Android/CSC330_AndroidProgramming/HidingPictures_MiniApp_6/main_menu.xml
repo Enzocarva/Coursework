@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/reset_button"
+        android:title="@string/reset_button"
+        app:showAsAction="ifRoom">
+    </item>
+    <item android:id="@+id/opinions"
+        android:title="@string/submenu_button">
+        <menu android:id="@+id/opinions_submenu">
+            <item android:id="@+id/like_button"
+                android:title="@string/like_text">
+            </item>
+            <item android:id="@+id/indifferent_button"
+                android:title="@string/indifferent_text">
+            </item>
+            <item android:id="@+id/dislike_button"
+                android:title="@string/dislike_text">
+            </item>
+        </menu>
+    </item>
+    <item android:id="@+id/quit_button"
+        android:title="@string/quit_button">
+    </item>
+</menu>

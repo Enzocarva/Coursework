@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/invisible_button"
+            android:title="@string/invisible_button">
+        </item>
+        <item android:id="@+id/gone_button"
+            android:title="@string/gone_button">
+        </item>
+    </group>
+</menu>

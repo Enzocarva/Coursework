@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="80"
+        android:layout_margin="10dp">
+        <ImageView android:id="@+id/image"
+            android:layout_width="@dimen/soccerBallSize"
+            android:layout_height="@dimen/soccerBallSize"
+            android:src="@drawable/soccer_ball">
+        </ImageView>
+    </LinearLayout>
+    <Button
+        android:id="@+id/RollButton"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/soccerBallSize"
+        android:layout_gravity="center"
+        android:text="Roll and Drop"
+        android:textSize="40sp"
+        android:onClick="clickHandler">
+    </Button>
+</LinearLayout>

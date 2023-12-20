@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="left">
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        style="@style/thumbnail">
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/listTitle"
+            style="@style/title.list">
+        </TextView>
+        <TextView
+            android:id="@+id/listDateAndTime"
+            style="@style/title.date">
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

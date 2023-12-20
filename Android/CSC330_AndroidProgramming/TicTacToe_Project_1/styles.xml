@@ -1,0 +1,90 @@
+<resources>
+<!--================================================================== Buttons ==============================================================================-->
+    <style name="button">
+        <item name="android:layout_width">@dimen/button_size</item>
+        <item name="android:layout_height">@dimen/button_size</item>
+        <item name="android:layout_margin">@dimen/button_margin</item>
+    </style>
+
+    <style name="button.player1">
+        <item name="android:foreground">#4956e6</item>  <!-- Blue color -->
+    </style>
+
+    <style name="button.player1.game">
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="button.player2">
+        <item name="android:foreground">#ba3934</item>  <!-- Red color -->
+    </style>
+
+    <style name="button.player2.game">
+        <item name="android:gravity">right</item>
+    </style>
+
+    <style name="button.play">
+        <item name="android:layout_height">@dimen/button_play_height</item>
+        <item name="android:layout_width">@dimen/button_play_width</item>
+        <item name="android:text">@string/button_play</item>
+        <item name="android:textSize">@dimen/button_play_text_size</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/black</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="button.grid">
+        <item name="android:background">@color/black</item>
+    </style>
+<!--================================================================== View =================================================================================-->
+    <style name="view">
+        <item name="android:layout_width">@dimen/view_size</item>
+        <item name="android:layout_height">@dimen/view_size</item>
+        <item name="android:layout_weight">@dimen/view_weight</item>
+    </style>
+<!--================================================================== Texts ================================================================================-->
+    <style name="text"
+        parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/text_margin</item>
+    </style>
+    
+    <style name="text.game_screen">
+        <item name="android:textSize">@dimen/text_size_game_screen</item>
+        <item name="android:paddingLeft">@dimen/text_paddingLeft</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="text.edit">
+        <item name="android:gravity">left</item>
+        <item name="android:hint">@string/player1</item>
+        <item name="android:text">@string/player1</item>
+    </style>
+
+    <style name="text.edit.2">
+        <item name="android:hint">@string/player2</item>
+        <item name="android:text">@string/player2</item>
+    </style>
+<!--================================================================== Rating Bar ===========================================================================-->
+    <style name="rating_bar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/ratingBar_margin</item>
+        <item name="android:isIndicator">true</item>
+        <item name="android:numStars">@integer/rating_bar_num_stars</item>
+        <item name="android:scaleX">@dimen/ratingBar_scale</item>
+        <item name="android:scaleY">@dimen/ratingBar_scale</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+<!--================================================================== Progress Bar =========================================================================-->
+    <style name="progress_bar"
+        parent="android:style/Widget.ProgressBar.Horizontal">
+         <item name="android:layout_width">@dimen/progressBar_width</item>
+        <item name="android:layout_height">@dimen/progressBar_height</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:max">@integer/progressBar_time_10s</item>
+    </style>
+
+<!--================================================================== Menus ================================================================================-->
+</resources>

@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<!--============================================== Players ==================================================================================================-->
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/ratingBar_margin">
+        <EditText
+            android:id="@+id/player1Name"
+            style="@style/text.edit">
+        </EditText>
+        <View
+            style="@style/view">
+        </View>
+        <Button
+            android:id="@+id/player1_button"
+            style="@style/button.player1"
+            android:onClick="clickHandler">
+        </Button>
+    </LinearLayout>
+    <RatingBar android:id="@+id/ratingBar1"
+        style="@style/rating_bar">
+    </RatingBar>
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/ratingBar_margin">
+        <EditText
+            android:id="@+id/player2Name"
+            style="@style/text.edit.2">
+        </EditText>
+        <View
+            style="@style/view">
+        </View>
+        <Button
+            android:id="@+id/player2_button"
+            style="@style/button.player2"
+            android:onClick="clickHandler">
+        </Button>
+    </LinearLayout>
+    <RatingBar android:id="@+id/ratingBar2"
+        style="@style/rating_bar">
+    </RatingBar>
+
+<!--============================================== Play Button ==============================================================================================-->
+    <Button
+        android:id="@+id/play_button"
+        style="@style/button.play"
+        android:onClick="clickHandler">
+    </Button>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <ImageView android:id="@+id/big_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/big_image_height"
+        android:gravity="center"
+        android:src="@mipmap/thumbs_up_round">
+    </ImageView>
+    <ListView android:id="@+id/countries_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+</LinearLayout>

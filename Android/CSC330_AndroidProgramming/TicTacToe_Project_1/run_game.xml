@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/button_margin">
+
+<!--============================================== Player info ==============================================================================================-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton android:id="@+id/player1_icon"
+            style="@style/button.player1.game">
+        </ImageButton>
+
+        <TextView android:id="@+id/player_name_game_screen"
+            style="@style/text.game_screen">
+        </TextView>
+
+        <View
+            style="@style/view">
+        </View>
+
+        <ImageButton android:id="@+id/player2_icon"
+            style="@style/button.player2.game">
+        </ImageButton>
+    </LinearLayout>
+
+<!--============================================== Progress Bar =============================================================================================-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/button_margin">
+        <ProgressBar android:id="@+id/progressBar"
+            style="@style/progress_bar">
+        </ProgressBar>
+    </LinearLayout>
+
+<!--============================================== Grid buttons ==================================================================================================-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/button_00"
+                style="@style/button.grid"
+                android:onClick="gameClickHandler">
+            </Button>
+            <Button
+                android:id="@+id/button_01"
+                style="@style/button.grid"
+                android:onClick="gameClickHandler">
+            </Button>
+            <Button
+                android:id="@+id/button_02"
+                style="@style/button.grid"
+                android:onClick="gameClickHandler">
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/button_10"
+                style="@style/button.grid"
+                android:onClick="gameClickHandler">
+            </Button>
+            <Button
+                android:id="@+id/button_11"
+                style="@style/button.grid"
+                android:onClick="gameClickHandler">
+            </Button>
+            <Button
+                android:id="@+id/button_12"
+                style="@style/button.grid"
+                android:onClick="gameClickHandler">
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/button_20"
+                style="@style/button.grid"
+                android:onClick="gameClickHandler">
+            </Button>
+            <Button
+                android:id="@+id/button_21"
+                style="@style/button.grid"
+                android:onClick="gameClickHandler">
+            </Button>
+            <Button
+                android:id="@+id/button_22"
+                style="@style/button.grid"
+                android:onClick="gameClickHandler">
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

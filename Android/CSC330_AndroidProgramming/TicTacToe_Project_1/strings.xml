@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tic-Tac-Toe Project 1</string>
+    <string name="player1">Player 1</string>
+    <string name="player2">Player 2</string>
+    <string name="button_play">Play!</string>
+
+    <string name="reset_button">Reset</string>
+    <string name="button_1s">1s</string>
+    <string name="button_2s">2s</string>
+    <string name="button_5s">5s</string>
+    <string name="button_10s">10s</string>
+</resources>

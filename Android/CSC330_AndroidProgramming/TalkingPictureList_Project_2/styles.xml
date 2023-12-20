@@ -1,0 +1,74 @@
+<resources>
+<!-- ============================================================ Main UI ================================================================================== -->
+    <style name="mainList">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="thumbnail">
+        <item name="android:layout_width">@dimen/thumbnailSize</item>
+        <item name="android:layout_height">@dimen/thumbnailSize</item>
+    </style>
+
+    <style name="descriptionStyle">
+        <item name="android:layout_width">@dimen/descriptionWidth</item>
+        <item name="android:layout_height">@dimen/descriptionHeight</item>
+        <item name="android:hint">@string/noDescription</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:layout_marginLeft">@dimen/margin</item>
+        <item name="android:layout_marginTop">@dimen/margin</item>
+    </style>
+
+<!-- ============================================================ Dialog UI =================================================================================-->
+    <style name="displayImage">
+        <item name="android:layout_width">@dimen/dialogImageWidth</item>
+        <item name="android:layout_height">@dimen/dialogImageHeight</item>
+        <item name="android:layout_margin">@dimen/margin</item>
+    </style>
+
+    <style name="button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">@dimen/textSize</item>
+    </style>
+
+    <style name="button.dismiss">
+        <item name="android:text">@string/dismissButton</item>
+    </style>
+
+<!-- ============================================================ Edit UI ================================================================================== -->
+    <style name="displayImage.editActivity">
+        <item name="android:layout_width">@dimen/dialogImageWidth</item>
+        <item name="android:layout_height">@dimen/dialogImageHeight</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">@dimen/margin</item>
+    </style>
+    
+    <style name="editText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/margin</item>
+        <item name="android:hint">@string/editTextHint</item>
+    </style>
+    
+    <style name="button.recorder">
+        <item name="android:layout_width">135dp</item>
+    </style>
+
+    <style name="button.recorder.record">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:text">@string/recordButton</item>
+    </style>
+
+    <style name="button.recorder.stop">
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:text">@string/stopButton</item>
+    </style>
+
+    <style name="button.recorder.save">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:text">@string/saveButton</item>
+    </style>
+
+</resources>
