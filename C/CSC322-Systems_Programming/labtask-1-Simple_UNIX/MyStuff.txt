@@ -1,0 +1,8 @@
+	User ID         : 501
+	Primary Group ID: 20
+	Names of Groups : staff everyone localaccounts _appserverusr admin _appserveradm _lpadmin com.apple.sh				arepoint.group.1 _appstore _lpoperator _developer _analyticsusers com.apple.access_f			      tp com.apple.access_screensharing com.apple.access_ssh com.apple.access_remote_ae
+
+	Absolute path of shell: /bin/tcsh
+	Absolute path of home : /Users/enzo
+	PATH environment var  : /usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/va				      r/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/ru				    n/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.appl				  e.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin
+		

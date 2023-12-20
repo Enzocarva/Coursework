@@ -1,0 +1,4 @@
+mkdir LabTask2/IveGotRights
+
+chmod 761 LabTask2/IveGotRights/
+

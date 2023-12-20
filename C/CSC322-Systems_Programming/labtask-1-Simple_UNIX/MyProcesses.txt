@@ -1,0 +1,4 @@
+Process started = top (PID = 75730)
+Parent process of top = 71349 (terminal 2)
+Parent process of terminal 2 = 75217 (terminal 1)
+Parent process of terminal 1 = 1

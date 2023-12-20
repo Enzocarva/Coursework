@@ -1,0 +1,7 @@
+touch Help\!\ I\'ve\ run\ out\ of\ \$s
+
+ls [a-zA-Z]*[0-9]*.[a-z]?
+
+head -n 12 grepfile.txt | tail -n 8 | grep -E '\bC[Ss][Cc][0-9]+\b'
+
+cp ../Ticker.c ./TickerCopy.c && gcc -Wall TickerCopy.c -o Ticker
